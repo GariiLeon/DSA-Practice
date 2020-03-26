@@ -32,10 +32,11 @@ function consecutiveLetters(strInput){
 
 /**
  * 
- * @param {number} index  // start the for loop from that index
+ * @param {number} index   start the for loop from that index,
  * index helps avoiding to start the for loop from 0
- * @param {number[]} stringArray // array containing each letter in string S
- * @param {number} countLetter // to count the occurence of a letter
+ * @param {[]} stringArray  array containing each letter in string S
+ * @param {number} countLetter  to count the occurence of a letter
+ * @returns {[]} The array of letters left;
  */
 function findAndRemove(index, stringArray,countLetter){
     let arrLength = stringArray.length; // to avoid calling .length everytime when the array is getting bigger
